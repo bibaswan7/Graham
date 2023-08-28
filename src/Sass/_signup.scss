@@ -1,0 +1,14 @@
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 90px);
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+
+    .signup-title{
+        text-align: left;
+        font-family: 'Playfair Display';
+        
+    }
+}

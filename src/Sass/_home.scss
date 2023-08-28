@@ -1,0 +1,28 @@
+.home-carousel-container{
+
+    // width: 100%;
+    height: calc(100vh - 90px);
+    max-width: 1200px;
+    // background-color: aquamarine;
+    margin: 0 auto;
+    padding:0;
+    display: flex;
+    // // flex-direction: column;
+    justify-content: space-around;
+    // align-items: center;
+    // align-items: center;
+    margin-top: 100px;
+    // gap: 30px;
+}
+
+.home-title{
+    font-family: 'Poppins';
+    font-size: 60px;
+    display: inline-block;
+    width: 500px;
+    margin-top: 200px;
+    // border: 1px solid black;
+}
+.hero-section{
+    width: 35%;
+}

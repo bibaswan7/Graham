@@ -1,0 +1,46 @@
+.nav-main {
+  background-color: #000000;
+
+  a {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .nav {
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1320px;
+    margin: 0 auto;
+
+    .logo-container {
+      h1 {
+        margin-left: 15px;
+        font-family: "Playfair Display";
+        color: white;
+        //   background-color: red;
+      }
+    }
+
+    .menu-items {
+      //   background-color: aquamarine;
+      width: 50%;
+      max-width: 500px;
+
+      ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 40px;
+        list-style: none;
+        li {
+          color: white;
+          font-family: "Poppins";
+          font-weight: 300;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
