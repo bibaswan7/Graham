@@ -90,11 +90,11 @@ const Login = () => {
           valuePropName="checked"
           wrapperCol={{ offset: 8, span: 16 }}
         >
-          <Checkbox>Remember me</Checkbox>
+          <Checkbox >Remember me</Checkbox>
         </Form.Item>
 
         <Form.Item wrapperCol={{ offset: 8, span: 16 }}>
-          <Button type="primary" htmlType="submit">
+          <Button type="primary" htmlType="submit" style={{backgroundColor:"black"}}>
             Submit
           </Button>
         </Form.Item>
@@ -103,7 +103,7 @@ const Login = () => {
         <p className="alert-message">Please enter correct email/password</p>
       )}
       <div className="btn-container">
-        <Button type="link" onClick={handleButtonClick}>
+        <Button type="link" onClick={handleButtonClick} style={{color:"black"}}>
           Register for a new account
         </Button>
       </div>

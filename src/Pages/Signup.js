@@ -117,7 +117,7 @@ const Signup = () => {
         </Form.Item>
 
         <Form.Item>
-          <Button block type="primary" htmlType="submit" size="large" style={{ fontFamily: "Poppins", fontSize: "15px" }}>
+          <Button block type="primary" htmlType="submit" size="large" style={{ fontFamily: "Poppins", fontSize: "15px", backgroundColor:'black' }}>
             Sign Up
           </Button>
         </Form.Item>
